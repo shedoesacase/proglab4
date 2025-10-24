@@ -1,7 +1,5 @@
 #include <iostream>
-#include "vector.hpp"
 #include "1list.hpp"
-#include "2list.hpp"
 #include <map>
 
 unsigned int factorial(unsigned int n)
