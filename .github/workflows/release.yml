@@ -63,9 +63,9 @@ jobs:
         shell: bash
         run: |
           if [[ "${{ matrix.os }}" == "windows-latest" ]]; then
-            ./build/containers.exe || true
+            ./build/allocators.exe || true
           else
-            ./build/containers || true
+            ./build/allocators || true
           fi
 
       - name: Package
